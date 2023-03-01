@@ -1,6 +1,6 @@
 <h1 align="center">Javascrip</h1>
 
-Repositório criado para armazenar os códigos feitos em linguagem Java durante a disciplina de Linguagem de Programação 2.
+Repositório criado para armazenar os códigos feitos em linguagem Javascrip durante a disciplina de Linguagem de Programação 2.
 
 ##  Autor
 
