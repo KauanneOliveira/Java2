@@ -10,4 +10,4 @@ Repositório criado para armazenar os códigos feitos em linguagem Javascrip dur
 
 ##  Apoio
 
-Dê uma ⭐️ se gosotu desse repositório!
+Dê uma ⭐️ se gostou desse repositório!
