@@ -1,14 +1,20 @@
 
 public class Teste {
+
+	public static void main( String args[] ) {
 	
-	public static void main(String args[]) {
+		Pessoa p1 = new Pessoa();
 		
-		Pessoa p1 = new Pessoa("Kauanne", 24, 8, 2024);
+		Pessoa p2 = new Pessoa( "Bernardo", 9, 6, 1972 );
 		
-		System.out.println( p1.toString() );
+		System.out.println( p2.toString() );
 		
-		Funcionario f1 = new Funcionario("Kauanne", 24, 8, 2024, "123456789", "12345678912");
+		Aluno a1 = new Aluno();
 		
-		System.out.println( f1.toString() );
+		Aluno a2 = new Aluno("Bernardo",9,6,1972,"sp12345");
+		
+		System.out.println( a2.toString() );			
+		
 	}
+		
 }
