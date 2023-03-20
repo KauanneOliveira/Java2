@@ -29,18 +29,20 @@ public class Teste {
 		System.out.println();
 		
 		
-		Relogio re1 = new Relogio("C醩sio", "Rosa", true);
+		Relogio re1 = new Relogio("C谩ssio", "Rosa", true);
 		Relogio re2 = new Relogio("Magnum", "Dourado", true);
 		Relogio re3 = new Relogio("Preto");
 		Relogio re4 = new Relogio("Magnum", "Dourado", true);
 		
-		System.out.println("Rel骻io 1 = Rel骻io 2: " +re2.equals(re1) ); //Rel骻io 1 = Rel骻io 2: false
-		System.out.println("Rel骻io 2 = Rel骻io 3: " +re3.equals(re2) ); //Rel骻io 2 = Rel骻io 3: false
-		System.out.println("Rel骻io 2 = Rel骻io 4: " +re2.equals(re4) ); //Rel骻io 2 = Rel骻io 4: true
+		System.out.println("Rel贸gio 1 = Rel贸gio 2: " +re2.equals(re1) ); //Rel贸gio 1 = Rel贸gio 2: false
+		System.out.println("Rel贸gio 2 = Rel贸gio 3: " +re3.equals(re2) ); //Rel贸gio 2 = Rel贸gio 3: false
+		System.out.println("Rel贸gio 2 = Rel贸gio 4: " +re2.equals(re4) ); //Rel贸gio 2 = Rel贸gio 4: true
 		
-		System.out.println("Rel骻io 1: " +re1.toString()+ ", hashCode: " +re1.hashCode() ); //Rel骻io 1: [ marca: C醩sio, cor: Rosa, tamanho: true], hashCode: -861061129
-		System.out.println("Rel骻io 2: " +re2.toString()+ ", hashCode: " +re2.hashCode() ); //Rel骻io 2: [ marca: Magnum, cor: Dourado, tamanho: true], hashCode: 66946851
-		System.out.println("Rel骻io 3: " +re3.toString()+ ", hashCode: " +re3.hashCode() ); //Rel骻io 3: [ marca: , cor: Preto, tamanho: false], hashCode: 1005925520
-		System.out.println("Rel骻io 4: " +re4.toString()+ ", hashCode: " +re4.hashCode() ); //Rel骻io 4: [ marca: Magnum, cor: Dourado, tamanho: true], hashCode: 66946851
+		System.out.println("Rel贸gio 1: " +re1.toString()+ ", hashCode: " +re1.hashCode() ); //Rel贸gio 1: [ marca: C谩ssio, cor: Rosa, tamanho: true], hashCode: -861061129
+		System.out.println("Rel贸gio 2: " +re2.toString()+ ", hashCode: " +re2.hashCode() ); //Rel贸gio 2: [ marca: Magnum, cor: Dourado, tamanho: true], hashCode: 66946851
+		System.out.println("Rel贸gio 3: " +re3.toString()+ ", hashCode: " +re3.hashCode() ); //Rel贸gio 3: [ marca: , cor: Preto, tamanho: false], hashCode: 1005925520
+		System.out.println("Rel贸gio 4: " +re4.toString()+ ", hashCode: " +re4.hashCode() ); //Rel贸gio 4: [ marca: Magnum, cor: Dourado, tamanho: true], hashCode: 66946851
+		
+		Cadastro ca1 = new Cadastro();
 	}
 }
