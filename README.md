@@ -1,4 +1,4 @@
-<h1 align="center">Javascrip</h1>
+<h1 align="center">Javas 2</h1>
 
 Repositório criado para armazenar os códigos feitos em linguagem Javascrip durante a disciplina de Linguagem de Programação 2.
 
