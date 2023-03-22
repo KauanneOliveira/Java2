@@ -46,7 +46,7 @@ public class Cadastro {
 		System.out.println("Digite a cor:");
 		String cor = leitura.next();
 		
-		lista.add( new Carro (marca, modelo, cor) );
+		lista.add( new Carro (marca, modelo, cor) ); //está instanciando e já adicionando dentro da lista. Então o q o usuário entrar, já vai ser adicionado na lista
 	}
 	
 	public void listar() {
