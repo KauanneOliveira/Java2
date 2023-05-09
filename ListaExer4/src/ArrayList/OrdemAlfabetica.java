@@ -17,7 +17,7 @@ public class OrdemAlfabetica {
 			nome = sc.nextLine();
 			lista.add(nome);
 		}
-		while( nome != "N" || nome != "n"  ); //não quer parar, oq fazer ?
+		while( ! (nome.equals( "N" ) || nome.equals("n")) ); 
 		
 		Collections.sort(lista);
 		
