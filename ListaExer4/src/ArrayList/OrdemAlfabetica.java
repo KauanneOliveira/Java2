@@ -13,11 +13,13 @@ public class OrdemAlfabetica {
 		Scanner sc = new Scanner(System.in);
 		
 		do {
-			System.out.println("Digite um nome (quando não querer mais, digite [N]): " );
+			System.out.println("Digite um nome (para terminar a entrada entre com o campo vazio)" );
 			nome = sc.nextLine();
 			lista.add(nome);
 		}
-		while( ! (nome.equals( "N" ) || nome.equals("n")) ); 
+		while( ! nome.isBlank() ); //enquanto nome não for vazio
+		
+		//while( ! (nome.equals( "N" ) || nome.equals("n")) );
 		
 		Collections.sort(lista);
 		
