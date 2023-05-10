@@ -6,24 +6,25 @@ public class ParImpar {
 
 	public static void main (String[] args) {
 		
-		ArrayList<Double> par = new ArrayList<Double>();
-		ArrayList<Double> impar = new ArrayList<Double>();
-		Double numero = 0.0;
+		ArrayList<Integer> par = new ArrayList<Integer>();
+		ArrayList<Integer> impar = new ArrayList<Integer>();
+		Integer numero = null;
 		Scanner sc = new Scanner(System.in);
 		
 		do {
 			
-			System.out.println( "Digite um número (para terminar a entrada insira o valor -1): ");;
-			numero = sc.nextDouble();			
-			
-			if( numero % 2 == 0) {
-				par.add( numero );
-			}
-			else {
-				impar.add( numero );
+			System.out.println( "Digite um número positivo(para terminar a entrada insira o valor -1): ");;
+			numero = sc.nextInt();			
+			if( numero >= 0 ) {
+				if( numero % 2 == 0) {
+					par.add( numero );
+				}
+				else {
+					impar.add( numero );
+				}
 			}
 		}
-		while( numero != -1 ); //como fazer para não pegar o -1 ?
+		while( numero >= 0 );
 		
 		System.out.println();
 		System.out.println();
@@ -32,7 +33,7 @@ public class ParImpar {
 		Collections.sort( impar );
 		
 		System.out.println("Vetor com os números pares");
-		for(Double p : par) {
+		for(Integer p : par) {
 			System.out.print( p + " " );
 		}
 		
@@ -40,9 +41,8 @@ public class ParImpar {
 		System.out.println();
 		
 		System.out.println("Vetor com os números ímpares");
-		for(Double i : impar) {
+		for(Integer i : impar) {
 			System.out.print( i + " " );
-		}
-		
+		}	
 	}	
 }
