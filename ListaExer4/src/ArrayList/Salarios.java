@@ -30,7 +30,7 @@ public class Salarios {
 		for (Double x : lista) {
 		    novoValor = x * reajuste;
 		    x += novoValor;
-		    System.out.println("Novo Salário: " +x);
+		    System.out.println("Novo Salário: " + x);
 		}	
 	}
 }
