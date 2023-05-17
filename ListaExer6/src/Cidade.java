@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Exer1 {
+public class Cidade {
 	
 	public static void main(String[] args) {
 		
@@ -11,7 +11,7 @@ public class Exer1 {
 				
 		
 		do {
-			System.out.println("Digite um nome de uma cidade ou deixe o campo em branco para sair:");
+			System.out.println("Digite o nome de uma cidade ou deixe o campo em branco para sair:");
 			nomeCidade = sc.nextLine();                      //precisa do nomeCidade para a condição no do...while
 			if( ! nomeCidade.isBlank())
 				mapa.put(nomeCidade, nomeCidade.length() );    //vai adicionar o nomeCidade como chave e o tamanho do nomeChave vai ser o valor
