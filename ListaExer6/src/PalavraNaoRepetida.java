@@ -2,16 +2,15 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class Exer2 {
+public class PalavraNaoRepetida {
 	
 	public static void main(String[] args) {
 	
-	String frase = "";
 	Scanner sc = new Scanner(System.in);
 	HashSet<String> repetida = new HashSet<String>();	
 	
 	System.out.println("Digite uma frase");
-	frase = sc.nextLine();
+	String frase = sc.nextLine();
 	
 	StringTokenizer st = new StringTokenizer(frase); //vai separar a frase em blocos, sendo que cada bloco será uma palavra
 	
